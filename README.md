@@ -23,6 +23,14 @@ A retro-themed game console with custom game support. This framework allows deve
    - `handleInput(button, isPressed)`: Handle user controls
    - Optional: `resumeGame()`: Handle game/app resumption
 
+## Game By Default
+- Tetris
+- Snake 
+- Mario
+- Space Invader
+- Ball Breaker
+
+
 ### Example App Template
 
 ```javascript
@@ -51,9 +59,5 @@ class MyApp extends BaseGame {
 // Register the app with the console
 window.gameConsole.registerGame('myapp', MyApp);
 
-# Game By Default
-- Tetris
-- Snake 
-- Mario
-- Space Invader
-- Ball Breaker
+
+
